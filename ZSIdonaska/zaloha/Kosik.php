@@ -1,9 +1,5 @@
 <?php
-<<<<<<< HEAD
-// coment z compu3
-=======
-// coment z webu2
->>>>>>> 286722ea62731a4af591ec2b2ff44f29076942c9
+// vymazanie komentov
 include_once  'spojenie.php';
 include_once 'Pizza.php';
 
