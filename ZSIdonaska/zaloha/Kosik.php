@@ -154,6 +154,6 @@ function getSumarize(){
 }
 
 }
-// len komentar nakonci
+// len komentar nakonci dgfd
 
 ?>
