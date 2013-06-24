@@ -1,5 +1,5 @@
 <?php
-// hh web
+// hhweb2
 include_once  'spojenie.php';
 include_once 'Pizza.php';
 
