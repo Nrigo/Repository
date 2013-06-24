@@ -1,4 +1,5 @@
 <?php
+// koment z compu
 include_once  'spojenie.php';
 include_once 'Pizza.php';
 
