@@ -1,0 +1,7 @@
+<FilesMatch "^(administracia|zamestnanci|uzivatelia|pizza|objednavka|vymazat_objednavku|vymazat_uzivatela|vymazat_zamestnanca)\.php$">
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /home/free/yw.sk/d/donaskovasluzba/root/www/.htpasswd 
+AuthGroupFile /dev/null 
+require user administrator
+</FilesMatch>

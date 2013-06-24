@@ -1,0 +1,146 @@
+@charset "UTF-8";
+#content {
+	width:960px;
+	z-index:1;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+body {
+	background-color: #999;
+	background-attachment: fixed;
+}
+a:link {
+	color: #F60;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #C00;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+a:active {
+	text-decoration: none;
+	color: #0C0;
+}
+h1 {
+	font-size: 18px;
+	color: #F60;
+}
+h2 {
+	font-size: 16px;
+	color: #F60;
+}
+h3 {
+	font-size: 14px;
+	color: #F60;
+}
+.contentImage {
+	padding: 10px;
+}
+
+
+ul.menu{
+	list-style-type:none;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-top: 43px;
+	margin-right: 0;
+	padding: 0;
+	width: 750px;
+}
+.administracia {
+	width: 330px;
+}
+.administracia fieldset {
+	border: 2px solid #FDB843;
+	text-align: left;
+}
+
+
+ul.menu li{
+	display:inline;
+	margin-right:25px; /* spacing between each menu item */
+}
+
+ul.menu li a{
+	position:relative;
+	color:#FEB741;
+	padding-bottom:8px; /*spacing between each menu item and arrow underline beneath it */
+	text-decoration:none;
+
+}
+
+ul.menu li a:hover{
+	color: #000;
+}
+
+.clear {
+	clear: both;
+}
+
+.odhlasit {
+	clear: both;
+	color: #F00;
+	float: right;
+	margin-top: -80px;
+}
+
+.tabulka {
+	font-size: 80%;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FDB745;
+	width: 940px;
+	margin-bottom: 35px;
+	border-collapse: collapse;
+}
+.tabulka td, .tabulka th {
+	text-align: left;
+	padding: 5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333;
+	vertical-align: top;
+}
+.tabulka caption {
+	font-size: 140%;
+	line-height: 1.2em;
+	font-weight: bold;
+	color: #333;
+	padding-bottom: 10px;
+}
+
+.tabulka th {
+	color: #333;
+	background-color: #FEB846;
+}
+.tabulka .width110 {
+	width: 110px;
+}
+
+.tabulka .width200 {
+	width: 200px;
+}
+
+.vyber {
+	width: 400px;
+}
+.tabulka .id {
+	width: 50px;
+	text-align: center;
+}

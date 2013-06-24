@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="3.0">
+  <meta>
+    <name>Project</name>
+    <authors />
+    <description />
+  </meta>
+  <items>
+    <item id="di662883175201533551" cid="ENT001" type="erd-entity" name="Objednavky" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+      <attributes>
+        <attribute name="id" type="int" type-size="11" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" />
+        <attribute name="pizza_id" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="celkova_suma" type="varchar " type-size="30" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="meno" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="priezvisko" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="ulica" type="varchar" type-size="100" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="mesto" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="tel_cislo" type="varchar" type-size="30" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="email" type="varchar" type-size="100" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="poznamka" type="text" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+      </attributes>
+    </item>
+    <item id="di293370386194931645" cid="CMT001" type="comment" name="Comment" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <comment />
+    </item>
+    <item id="di163296033894006565" cid="ENT002" type="erd-entity" name="Pizza" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+      <attributes>
+        <attribute name="id" type="int" type-size="255" foreign-key="false" primary-key="true" nullable="false" description="" default-value="" />
+        <attribute name="pizzaObj" type="text" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+      </attributes>
+    </item>
+    <item id="di836301143232753186" cid="ENT003" type="erd-entity" name="users" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+      <attributes>
+        <attribute name="id" type="int " type-size="11" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="meno" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="priezvisko" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="ulica" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="mesto" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="tel_cislo" type="varchar" type-size="30" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="email" type="varchar" type-size="100" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="login" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="password" type="varchar" type-size="200" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="send_mailinglist" type="varchar" type-size="3" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="poznamka" type="text" type-size="" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+      </attributes>
+    </item>
+    <item id="di824848497684683325" cid="ENT004" type="erd-entity" name="Zamestnanci" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+      <attributes>
+        <attribute name="id" type="int " type-size="11" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="meno" type="varchar" type-size="40" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="priezvisko" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="ulica" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="mesto" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="tel_cislo" type="varchar" type-size="30" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+        <attribute name="email" type="varchar" type-size="50" foreign-key="false" primary-key="false" nullable="false" description="" default-value="" />
+      </attributes>
+    </item>
+    <item id="di782762175126709390" cid="REL001" type="erd-relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <erd-relation type="Association" multiplicity-from="" multiplicity-to="" />
+    </item>
+  </items>
+  <models>
+    <model id="p567824307267853716" name="Model 1">
+      <diagram type="entity-relationship" id="p339871569868413758" name="Diagram1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>12/03/2011 21:22:08</creation-date>
+          <change-date>12/03/2011 21:22:08</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di662883175201533551" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="42" ay="44" awidth="412" aheight="189" x="42" y="44" width="412" height="189" />
+          </item>
+          <item id="di163296033894006565" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="615" ay="323" awidth="247" aheight="170" x="615" y="323" width="247" height="0" />
+          </item>
+          <item id="di836301143232753186" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="484" ay="47" awidth="342" aheight="211" x="484" y="47" width="342" height="211" />
+          </item>
+          <item id="di824848497684683325" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="50" ay="315" awidth="304" aheight="170" x="50" y="315" width="304" height="0" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

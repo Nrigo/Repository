@@ -1,0 +1,151 @@
+form.registration {
+	width:400px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+form.registration input {
+	width:200px;
+	border:1px solid #BA6320;
+	color:#000;
+	font-size:1em;
+	padding:2px;
+	font-family:Arial,sans-serif;
+}
+form.registration textarea {
+    border:1px solid #BA6320;
+    color:#000;
+    width:200px;
+    font-size:1em;
+    padding:2px;
+    font-family:Arial,sans-serif;
+}
+div.registration {
+	border:3px solid #F60;
+	width: 410px;
+	padding: 10px;
+}
+table.registration th {
+	width:150px;
+	text-align:right;
+	padding:2px 5px 2px 0px;
+	vertical-align:top;
+	color:#000;
+	background-color: #FC9;
+}
+table.registration td {
+	color:#000;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+.container .content .registration .registration tr td input {
+	float: left;
+}
+
+
+div.submit {
+    text-align:right;
+    padding:10px 0px 0px 0px;
+}
+form.registration input.send {
+	border:none;
+	cursor:pointer;
+	text-align:center;
+	font-size:1em;
+	font-weight:bold;
+	padding:2px 5px 2px 5px;
+	border:1px solid #7D3A05;
+	color:#FFF;
+	width:120px;
+	background-color: #F60;
+}
+
+div.registration_result {
+    margin:20px auto;
+    width:390px;
+}
+div.registration_result .message {
+    font-size:1.5em;
+    line-height:1.5em;
+    color:#853805;
+    padding:0px 0px 0px 0px;
+}
+div.registration_result div.submit {
+    text-align:center;
+}
+
+div.login_info {
+	background:#FEEFE1;
+	border:2px solid #CA3817;
+	padding:10px;
+	width:300px;
+	margin:10px auto 15px auto;
+	text-align:center;
+}
+div.login_info span {
+    font-size:2em;
+    color:#BD2300;
+    font-weight:bold;
+    padding:10px 0px 10px 0px;
+    display:block;
+    font-family:Arial,sans-serif;
+}
+div.login_info strong {
+    color:#BD2300;
+    font-size:1.5em;
+    font-family:Arial,sans-serif;
+}
+
+table.registration .separator {
+	border-top:10px solid #FFF;
+}
+
+p.message {
+    margin:0px;
+    padding:10px 0px 0px 0px;
+    color:#F00;
+    text-align:center;
+    font-weight:bold;
+}
+
+#order_info {
+	border:1px solid #FFDB35;
+	margin:5px 0px 5px 0px;
+	padding:10px;
+	text-align:center;
+	color:#000;
+	background-color: #FC9;
+}
+
+table.registration td.obchodne_podmienky {
+    padding:5px 0px 5px 0px;
+}
+table.registration td.obchodne_podmienky div {
+	height:150px;
+	overflow:auto;
+	padding:5px 10px 5px 10px;
+	margin:3px 0px 3px 0px;
+	background-color: #CCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #F60;
+	border-right-color: #F60;
+	border-bottom-color: #F60;
+	border-left-color: #F60;
+}
+
+#i13 {
+    width:auto;
+}
+label {
+    cursor:pointer;
+}

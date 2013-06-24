@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="3.0">
+  <meta>
+    <name>Project</name>
+    <authors />
+    <description />
+  </meta>
+  <items>
+    <item id="di294907247450310563" cid="AC001" type="actor" name="Zákaznik" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di174564783667634920" cid="AC002" type="actor" name="Kuchár" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di358570081116195413" cid="AC003" type="actor" name="Roznásač" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di622904556961348138" cid="UC001" type="use-case" name="Prezerat ponuku" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di765052076190397371" cid="UC002" type="use-case" name="Objednať pizzu" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di248025436381625929" cid="UC003" type="use-case" name="Prihlásiť sa" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di264828162190604057" cid="UC004" type="use-case" name="Registrovať" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di708546784475867269" cid="UC005" type="use-case" name="Správa objednávok" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di811721595232831365" cid="UC006" type="use-case" name="Editácia pizz" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di879814990992693493" cid="AC004" type="actor" name="Riaditeľ" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation>{\rtf1\ansi\ansicpg1250\deff0\deflang1051{\fonttbl{\f0\fnil\fcharset238 Microsoft Sans Serif;}}
+\viewkind4\uc1\pard\f0\fs17\par
+}
+</documentation>
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di340182984155667604" cid="UC007" type="use-case" name="Správa zamestnancov a užívateľov" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di123301163441609117" cid="REL001" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di203870606970318764" cid="REL002" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di985161265475828912" cid="REL003" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di456197844617204061" cid="REL004" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di428796988978238914" cid="REL005" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di990217799949426357" cid="REL006" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di438649011962547058" cid="REL007" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di732398644363796176" cid="AC005" type="actor" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di313440602520746698" cid="REL008" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di832742590209536132" cid="REL009" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di436510048960799809" cid="REL010" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di786018866230900154" cid="REL011" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di515516823649737688" cid="REL012" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di289338496982577203" cid="REL013" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di114679382804763395" cid="REL014" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di421252814598372837" cid="GNR001" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di553167132214168470" cid="GNR002" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di766347321886707938" cid="GNR003" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+    <item id="di463126844230096133" cid="REL015" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di932313168711767838" cid="REL016" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di880342321445061686" cid="REL017" type="relationship" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+      <relation from="" to="">
+        <start-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+        <end-role name="" multiplicity="" navigability="" association-type="association" visibility="private" />
+      </relation>
+    </item>
+    <item id="di267021119455582112" cid="GNR004" type="generalization" name="" style-class="" is-abstract="false">
+      <stereotypes />
+      <tagged-values />
+      <documentation />
+      <associated-diagrams />
+      <style class="default" />
+    </item>
+  </items>
+  <models>
+    <model id="p558779288105457652" name="Model 1">
+      <diagram type="uml-usecase" id="p735024329117970045" name="UseCaseDiagram 1">
+        <meta>
+          <authors />
+          <description />
+          <creation-date>12/03/2011 20:21:38</creation-date>
+          <change-date>12/03/2011 20:21:40</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <layer name="Default" visible="true" enabled="true" locked="false">
+          <item id="di294907247450310563" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="332" ay="78" awidth="72" aheight="120" x="332" y="78" width="72" height="120" />
+          </item>
+          <item id="di174564783667634920" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="604" ay="82" awidth="60" aheight="120" x="604" y="82" width="0" height="120" />
+          </item>
+          <item id="di358570081116195413" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="617" ay="398" awidth="72" aheight="120" x="617" y="398" width="72" height="0" />
+          </item>
+          <item id="di622904556961348138" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="123" ay="315" awidth="120" aheight="75" x="123" y="315" width="0" height="0" />
+          </item>
+          <item id="di765052076190397371" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="278" ay="395" awidth="120" aheight="75" x="278" y="395" width="0" height="0" />
+          </item>
+          <item id="di248025436381625929" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="64" ay="189" awidth="120" aheight="75" x="64" y="189" width="0" height="76" />
+          </item>
+          <item id="di264828162190604057" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="60" ay="64" awidth="120" aheight="75" x="60" y="64" width="0" height="0" />
+          </item>
+          <item id="di708546784475867269" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="713" ay="327" awidth="120" aheight="75" x="713" y="327" width="0" height="0" />
+          </item>
+          <item id="di811721595232831365" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="703" ay="136" awidth="120" aheight="75" x="703" y="136" width="0" height="0" />
+          </item>
+          <item id="di879814990992693493" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="455" ay="194" awidth="60" aheight="120" x="455" y="194" width="0" height="0" />
+          </item>
+          <item id="di340182984155667604" show-cid="false" show-parent-name="false" show-stereotypes="true" type="entity">
+            <layout ax="430" ay="443" awidth="120" aheight="75" x="430" y="443" width="0" height="0" />
+          </item>
+          <item id="di832742590209536132" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="221" y1="324" x2="332" y2="179">
+              <points>
+                <point x="221" y="324" />
+                <point x="332" y="179" />
+              </points>
+            </layout>
+            <relation from="di622904556961348138" to="di294907247450310563" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di436510048960799809" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="179" y1="107" x2="332" y2="132">
+              <points>
+                <point x="179" y="107" />
+                <point x="332" y="132" />
+              </points>
+            </layout>
+            <relation from="di264828162190604057" to="di294907247450310563" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di786018866230900154" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="343" y1="395" x2="361" y2="198">
+              <points>
+                <point x="343" y="395" />
+                <point x="361" y="198" />
+              </points>
+            </layout>
+            <relation from="di765052076190397371" to="di294907247450310563" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di515516823649737688" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="332" y1="150" x2="180" y2="213">
+              <points>
+                <point x="332" y="150" />
+                <point x="180" y="213" />
+              </points>
+            </layout>
+            <relation from="di294907247450310563" to="di248025436381625929" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di766347321886707938" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="515" y1="231" x2="604" y2="164">
+              <points>
+                <point x="515" y="231" />
+                <point x="604" y="164" />
+              </points>
+            </layout>
+            <relation from="di879814990992693493" to="di174564783667634920" />
+          </item>
+          <item id="di463126844230096133" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="486" y1="314" x2="488" y2="443">
+              <points>
+                <point x="486" y="314" />
+                <point x="488" y="443" />
+              </points>
+            </layout>
+            <relation from="di879814990992693493" to="di340182984155667604" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di932313168711767838" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="664" y1="149" x2="705" y2="165">
+              <points>
+                <point x="664" y="149" />
+                <point x="705" y="165" />
+              </points>
+            </layout>
+            <relation from="di174564783667634920" to="di811721595232831365" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di880342321445061686" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="689" y1="429" x2="725" y2="387">
+              <points>
+                <point x="689" y="429" />
+                <point x="725" y="387" />
+              </points>
+            </layout>
+            <relation from="di358570081116195413" to="di708546784475867269" />
+            <role-positions start-role="25,15" end-role="25,15" start-multiplicity="25,-15" end-multiplicity="25,-15" />
+          </item>
+          <item id="di267021119455582112" show-cid="false" show-parent-name="false" show-stereotypes="true" type="relation">
+            <layout line-style="straight" lock-start-point="false" lock-end-point="false" name-position="10,-10" x1="637" y1="202" x2="649" y2="398">
+              <points>
+                <point x="637" y="202" />
+                <point x="649" y="398" />
+              </points>
+            </layout>
+            <relation from="di174564783667634920" to="di358570081116195413" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
