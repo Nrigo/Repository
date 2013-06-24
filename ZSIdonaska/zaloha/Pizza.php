@@ -74,4 +74,5 @@ public function getIndex(){
 
 }
 
+// komentar pridany z pc
 ?>
