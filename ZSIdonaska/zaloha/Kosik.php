@@ -1,5 +1,5 @@
 <?php
-// koment z compu
+// coment z webu
 include_once  'spojenie.php';
 include_once 'Pizza.php';
 
