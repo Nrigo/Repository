@@ -1,4 +1,3 @@
-
 <?php
 include_once  'spojenie.php';
 include_once 'Pizza.php';
@@ -155,6 +154,6 @@ function getSumarize(){
 }
 
 }
-
+// len komentar nakonci
 
 ?>
